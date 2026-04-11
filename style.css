@@ -1,17 +1,18 @@
 html {
  font-size: 16px;
+ background-color: skyblue;
 }
 
 nav {
   display: inline-flex;
   position: fixed;
   top: 0px;
-  right: -150px;
-  width: 20%;
+  right: -180px;
+  width: 200px;
   height: auto;
   background-color: rgba(220, 220, 220, 0.8);
   border: solid 1px black;
-  transition: left 800ms linear 200ms;
+  transition: right 800ms linear 200ms;
   z-index: 2;
 }
 
