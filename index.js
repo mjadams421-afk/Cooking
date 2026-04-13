@@ -1,9 +1,4 @@
-<html>
-<head>
-<link href="css.style"
+import { createRoot } from 'react-dom/client';
+import App from './App';  
 
-</head>
-
-
-
-</html>
+createRoot(document.getElementById('app')).render(<App />);
