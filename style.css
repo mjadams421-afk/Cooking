@@ -7,19 +7,17 @@ nav {
   display: inline-flex;
   position: fixed;
   top: 0px;
-  right: -180px;
+  right: 0px;
   width: 200px;
   height: auto;
   background-color: rgba(220, 220, 220, 0.8);
   border: solid 1px black;
   transition: right 800ms linear 200ms;
-  z-index: 2;
+  z-index: -2;
 }
 
 nav:hover {
-    right: 0px;
-    background-color: rgba(50,50,200,0.8);
-    z-index: -2;
+    background-color: rgba(50,50,200,0.8);   
 }
 
 header {
@@ -77,23 +75,37 @@ article ol:hover {
 article .sci {
     background-color: rgba(220, 220, 220, 0.8);
     border: dotted 1px blue;
+    transition: background-color 600ms ease-out 200ms;
+}
+article.sci:hover {
+    background-color: rgba(220, 220, 220, 1);
 }
 
 article .fish {
     background-color: rgba(220, 250, 220, 0.8);
     border: dotted 1px teal;
+    transition: background-color 600ms ease-out 200ms;
+}
+article.fish:hover {
+    background-color: rgba(220, 250, 220, 1);
 }
 
 
 article .chicken {
     background-color: rgba(250, 220, 250, 0.8);
     border: dotted 1px darkgoldenrod;
+    transition: background-color 600ms ease-out 200ms;
 }
-
+article.chicken:hover {
+    background-color: rgba(250, 220, 250, 1);
+}
 
 article .baking {
     background-color: rgba(250, 250, 220, 0.8);
     border: dotted 1px greenyellow;
+    transition: background-color 600ms ease-out 200ms;
 }
-
+article.baking:hover {
+    background-color: rgba(250, 250, 220, 1);
+}   
 
