@@ -19,6 +19,15 @@ nav:hover {
     background-color: rgba(50,50,200,0.8);   
 }
 
+nav href {
+    color: black;
+    transition: color 800ms linear 200ms;
+}
+
+nav href:hover {
+    color: yellowgreen;
+}
+
 header {
     position: relative;
     top: 150px;
