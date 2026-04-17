@@ -9,7 +9,7 @@ function App() {
      <h1>Cooking is fun</h1>
      <h2>Cooking Tips for everyone</h2>
     </div>
- )
-}
+ );
+};
 
 export default App;
