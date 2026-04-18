@@ -10,22 +10,22 @@ nav {
   right: 0px;
   width: 200px;
   height: auto;
-  background-color: rgba(220, 220, 220, 0.8);
+  background-color: rgba(220, 220, 220, 0.5);
   border: solid 1px black;
   transition: right 800ms linear 200ms;
 }
 
 nav:hover {
-    background-color: rgba(50,50,200,0.8);   
+    background-color: rgba(50,50,200,0.7);   
 }
 
-nav href {
-    color: black;
+nav a {
+    color: rgba(0,0,0,0.5);
     transition: color 800ms linear 200ms;
 }
 
-nav href:hover {
-    color: yellowgreen;
+nav a:hover {
+    color: rgba(150,250,200,0.5);
 }
 
 header {
