@@ -119,6 +119,8 @@ article.baking:hover {
 }   
 
 footer .ingred {
+   position: relative;
+   top: 150px;
    display: inline-flex;
    background-color: black;
    color: white;
