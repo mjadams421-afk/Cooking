@@ -11,14 +11,14 @@ function displayInA() {
  }
 //Chicken event listener and function
 function displayInB() {
-  chickenIn.innerHTML = '"Cooking Chicken": Chicken Breast, mushrooms, Garlic, Herbs, spaghetti, Salt & Pepper';
+  chickenIn.innerHTML = '"Cooking Chicken": Chicken Breast, mushrooms, chicken broth, milk, cheese, spaghetti, Salt & Pepper';
   chickenIn.style.backgroundColor = 'rgba(250, 250, 220, 1)';
   chickenIn.style.color = 'black';
   chickenIn.style.border= '4px solid black';
 }
 //Baking event listener and function
 function displayInC() {
-  bakingIn.innerHTML = '"Baking": Flour, Sugar, Eggs, Butter, Baking Powder, corn oil, Vanilla Extract';
+  bakingIn.innerHTML = '"Baking": Flour, Sugar, powdered sugar, Eggs, Butter, Baking Powder, sour cream, corn oil, nutmeg, Salt';
   bakingIn.style.backgroundColor = 'rgba(250, 250, 220, 1)';
   bakingIn.style.color = 'black';
   bakingIn.style.border= '4px solid black';
