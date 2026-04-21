@@ -119,6 +119,8 @@ article.baking:hover {
 }   
 
 footer .ingred {
+   font-size: 1.3rem;
+   font-family:Arial, Helvetica, sans-serif;
    position: relative;
    top: 150px;
    display: inline-flex;
@@ -126,4 +128,8 @@ footer .ingred {
    color: white;
    width: 100%;
    height: auto;
+   transition: font-size 800ms ease-in 300ms;
+}
+footer .ingred:hover{
+   font-size: 1.4rem;
 }

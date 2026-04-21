@@ -7,18 +7,21 @@ function displayInA() {
   fishIn.innerHTML = '"Cooking Fish": Fish Fillet, bread crumbs, herbs, Lemon, Garlic, Olive Oil, honey mustard, Salt & Pepper';
   fishIn.style.backgroundColor = 'rgba(250, 250, 220, 1)';
   fishIn.style.color = 'black';
+  fishIn.style.border= '4px solid black';
  }
 //Chicken event listener and function
 function displayInB() {
   chickenIn.innerHTML = '"Cooking Chicken": Chicken Breast, mushrooms, Garlic, Herbs, spaghetti, Salt & Pepper';
   chickenIn.style.backgroundColor = 'rgba(250, 250, 220, 1)';
   chickenIn.style.color = 'black';
+  chickenIn.style.border= '4px solid black';
 }
 //Baking event listener and function
 function displayInC() {
   bakingIn.innerHTML = '"Baking": Flour, Sugar, Eggs, Butter, Baking Powder, corn oil, Vanilla Extract';
   bakingIn.style.backgroundColor = 'rgba(250, 250, 220, 1)';
   bakingIn.style.color = 'black';
+  bakingIn.style.border= '4px solid black';
 }
 
 //Event Handlers for functions
