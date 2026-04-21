@@ -133,3 +133,6 @@ footer .ingred {
 footer .ingred:hover{
    font-size: 1.4rem;
 }
+#fish, #chicken, #baking {
+   border: solid 4px white;
+}
