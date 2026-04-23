@@ -29,9 +29,6 @@ function reset() {
   fishIn.removeEventListener('mousedown', displayInA);
   chickenIn.removeEventListener('mousedown', displayInB);
   bakingIn.removeEventListener('mousedown', displayInC);
-  fishIn.innerHTML = '';
-  chickenIn.innerHTML = '';
-  bakingIn.innerHTML = '';
 }
 
 //Event Handlers for functions
