@@ -25,6 +25,9 @@ function displayInC() {
 }
 
 //Event Handlers for functions
- fishIn.addEventListener('click', displayInA);
- chickenIn.addEventListener('click', displayInB);
- bakingIn.addEventListener('click', displayInC);
+ fishIn.addEventListener('mousedown', displayInA);
+ chickenIn.addEventListener('mousedown', displayInB);
+ bakingIn.addEventListener('mousedown', displayInC);
+ fishIn.removeEventListener('mouseup', displayInA);
+ chickenIn.removeEventListener('mouseup', displayInB);
+ bakingIn.removeEventListener('mouseup', displayInC);
